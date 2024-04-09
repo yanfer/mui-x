@@ -84,17 +84,17 @@ const esESPickers: Partial<PickersLocaleText<any>> = {
   fieldMeridiemPlaceholder: () => 'aa',
 
   // View names
-  // year: 'Year',
-  // month: 'Month',
-  // day: 'Day',
-  // weekDay: 'Week day',
-  // hours: 'Hours',
-  // minutes: 'Minutes',
-  // seconds: 'Seconds',
-  // meridiem: 'Meridiem',
+  year: 'Año',
+  month: 'Mes',
+  day: 'Día',
+  weekDay: 'Entre Semana',
+  hours: 'Horas',
+  minutes: 'Minutos',
+  seconds: 'Segundos',
+  meridiem: 'Meridiano',
 
   // Common
-  // empty: 'Empty',
+  empty: 'Vacío',
 };
 
 export const esES = getPickersLocalization(esESPickers);
